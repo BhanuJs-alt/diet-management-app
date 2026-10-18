@@ -1,0 +1,70 @@
+.modal-overlay { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: rgba(0,0,0,0.5); 
+    display: 
+    flex; align-items: center; 
+    justify-content: center; 
+    z-index: 1000; 
+}
+.modal-content { 
+    background: white; 
+    padding: 32px; 
+    border-radius: 16px; 
+    width: 100%; 
+    max-width: 400px; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+}
+.modal-content h2 { 
+    margin-top: 0; 
+    margin-bottom: 24px; 
+    color: #1a1a1a; 
+}
+.modal-content form { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 16px; 
+}
+.modal-content select, .modal-content input { 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    font-size: 16px; 
+    font-family: inherit; 
+}
+.modal-actions { 
+    display: flex; 
+    justify-content: flex-end; 
+    gap: 12px; 
+    margin-top: 16px; 
+}
+.btn-cancel { 
+    padding: 10px 16px; 
+    background: transparent; 
+    border: none; 
+    color: #666; 
+    cursor: pointer; 
+    font-weight: 600; 
+}
+.btn-submit { 
+    padding: 10px 16px; 
+    background: #1d5f42; 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    font-weight: 600; 
+}
+@media (max-width: 600px) {
+  .modal-content {
+    padding: 20px;
+    width: 90%;
+    margin: 16px;
+  }
+  .macro-inputs {
+    flex-direction: column;
+  }
+}

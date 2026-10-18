@@ -1,0 +1,78 @@
+.meal-list-header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: baseline; 
+    margin-bottom: 24px; 
+}
+.open-diary { 
+    color: #1d5f42; 
+    text-decoration: none; 
+    font-size: 14px; 
+    font-weight: 600; 
+}
+.meal-items { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 24px; 
+}
+.meal-item { 
+    display: flex; 
+    gap: 16px; 
+    align-items: flex-start; 
+    padding-bottom: 20px; 
+    border-bottom: 1px solid #f0f0f0; 
+}
+.meal-item:last-child { 
+    border-bottom: none; 
+    padding-bottom: 0; 
+}
+.meal-dot { 
+    color: #1d5f42; 
+    font-size: 16px; 
+    line-height: 1; 
+    margin-top: 2px; 
+}
+.meal-info { 
+    flex: 1; 
+}
+.meal-title-row { 
+    display: flex; 
+    justify-content: space-between; 
+    font-size: 15px; 
+    margin-bottom: 6px; 
+    color: #1a1a1a; 
+}
+.meal-title-row strong { 
+    text-transform: capitalize; 
+}
+.meal-cals { 
+    font-weight: 600; 
+}
+.meal-foods { 
+    color: #666; 
+    font-size: 13px; 
+    line-height: 1.4; 
+}
+.empty-state { 
+    color: #666; 
+    font-size: 14px; 
+}
+.meal-actions { 
+    display: flex; 
+    align-items: center; 
+    gap: 12px; 
+}
+.btn-delete { 
+    background: none; 
+    border: none; 
+    color: #999; 
+    font-size: 20px; 
+    line-height: 1; 
+    cursor: pointer; 
+    padding: 0 4px; 
+    border-radius: 4px; 
+}
+.btn-delete:hover { 
+    color: #d32f2f; 
+    background: #ffebee; 
+}

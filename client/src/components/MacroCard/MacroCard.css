@@ -1,0 +1,30 @@
+.macro-rows { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+}
+.macro-text { 
+    display: flex; 
+    justify-content: space-between; 
+    font-size: 14px; 
+    margin-bottom: 8px; 
+    color: #1a1a1a; 
+}
+.macro-text strong { 
+    font-weight: 600; 
+}
+.macro-text span { 
+    color: #666; 
+    font-size: 13px; 
+}
+.macro-bar-bg { 
+    height: 8px; 
+    background: #f0f0f0; 
+    border-radius: 4px; 
+    overflow: hidden; 
+}
+.macro-bar-fill { 
+    height: 100%; 
+    border-radius: 4px; 
+    transition: width 0.4s ease; 
+}

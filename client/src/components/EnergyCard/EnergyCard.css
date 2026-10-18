@@ -1,0 +1,96 @@
+.card-title { 
+    font-size: 12px; 
+    color: #666; 
+    text-transform: uppercase; 
+    letter-spacing: 0.5px; 
+    margin-top: 0; 
+    margin-bottom: 24px; 
+    font-weight: 600;
+}
+.energy-content { 
+    display: flex; 
+    align-items: center; 
+    gap: 32px; 
+}
+.energy-circle { 
+    width: 140px; 
+    height: 140px; 
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-shrink: 0;
+}
+.energy-inner { 
+    width: 116px; 
+    height: 116px; 
+    background: white; 
+    border-radius: 50%; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+.energy-number { 
+    font-size: 32px; 
+    font-weight: 700; 
+    color: #1a1a1a; 
+    line-height: 1.1; 
+}
+.energy-label { 
+    font-size: 12px; 
+    color: #666; 
+}
+.energy-stats { 
+    display: flex; 
+    flex-direction: 
+    column; gap: 16px; 
+}
+.stat-row { 
+    display: flex; 
+    flex-direction: column; 
+}
+.stat-label { 
+    font-size: 13px; 
+    color: #666; 
+    margin-bottom: 4px; 
+}
+.stat-val { 
+    font-size: 20px; 
+    font-weight: 600; 
+    color: #1a1a1a; 
+}
+.budget-display { display: flex; 
+    align-items: center; 
+    gap: 8px; 
+}
+.btn-edit-budget { 
+    background: none; 
+    border: none; 
+    color: #999; 
+    cursor: pointer; 
+    font-size: 14px; 
+    padding: 4px; 
+    transition: color 0.2s; 
+}
+.btn-edit-budget:hover { 
+    color: #1d5f42; 
+}
+.budget-input { 
+    font-size: 20px; 
+    font-weight: 600; 
+    color: #1a1a1a; 
+    width: 80px; 
+    padding: 2px 4px; 
+    border: 1px solid #1d5f42; 
+    border-radius: 4px; 
+    outline: none; 
+    font-family: inherit; 
+}
+@media (max-width: 400px) {
+  .energy-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+}
